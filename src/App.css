@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+  /* margin: 0;
+  padding: 0; */
+}
+
+body {
+  background-color: #2f3640;
+  width: 100vh;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  border: 2px solid #70e6f3;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.cityInput {
+  flex: 1;
+  height: 30px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+  padding: 10px;
+}
+
+.search-icon {
+  padding: 10px;
+  /* height: 40px; */
+  cursor: pointer;
+}
+
+.search-icon img {
+  object-fit: contain;
+  margin-top: 5px;
+}
+
+.image {
+  text-align: center;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+.image img {
+  width: 160px;
+  height: 160px;
+}
+
+.temp,
+.location,
+.country {
+  margin-top: 5px;
+  font-size: 35px;
+  color: #333;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.temp {
+  font-weight: 500;
+}
+
+.location {
+  color: #ffbc00;
+  font-size: 40px;
+}
+
+.country {
+  font-size: 18px;
+  color: #888;
+  font-weight: 500;
+}
+
+.cord {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.cord div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.cord div span {
+  font-size: 14px;
+  font-weight: 500px;
+  color: #888;
+  text-transform: uppercase;
+}
+
+.humidity-percent,
+.wind-percent,
+.cord div span:nth-child(2) {
+  font-size: 18px;
+  font-weight: bold;
+  color: #666;
+  padding-top: 5px;
+}
+
+.data-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.element {
+  text-align: center;
+}
+
+.icon {
+  width: 100px;
+}
+
+.text {
+  font-size: 15px;
+  color: #888;
+}
+
+.notFound {
+  margin-top: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #888;
+  font-weight: 500;
+}
+
+.loading {
+  margin-top: 10px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #888;
+  font-weight: 500;
+}
+.error-message {
+  margin-top: 10px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #888;
+  font-weight: 500;
+}
